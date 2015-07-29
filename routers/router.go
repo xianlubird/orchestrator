@@ -1,10 +1,10 @@
 package routers
 
 import (
-	"orchestrator/controllers"
 	"github.com/astaxie/beego"
+	"github.com/xianlubird/orchestrator/controllers"
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{})
+	beego.Router("/", &controllers.MainController{})
 }

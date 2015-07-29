@@ -1,11 +1,10 @@
 package main
 
 import (
-	_ "orchestrator/routers"
 	"github.com/astaxie/beego"
+	_ "github.com/xianlubird/orchestrator/routers"
 )
 
 func main() {
 	beego.Run()
 }
-
