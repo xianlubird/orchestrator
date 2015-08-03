@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/xianlubird/haha/controllers"
+	"github.com/xianlubird/orchestrator/controllers"
 	"github.com/astaxie/beego"
 )
 
