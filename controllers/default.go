@@ -26,6 +26,5 @@ func (c *MainController) Get() {
         log.Println(c.Id, c.Names)
     }
 	
-	
 	c.TplNames = "index.tpl"
 }
